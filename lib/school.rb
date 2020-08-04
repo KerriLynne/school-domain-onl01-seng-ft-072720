@@ -20,6 +20,8 @@ end
  end
 
  def sort
+   @roster.map do |grade, student_name| 
+     student_name.sort 
  end
 
 
