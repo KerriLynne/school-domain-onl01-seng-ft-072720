@@ -1,14 +1,6 @@
 # code here!
 class School
-
-def name= (name)
-  @name = name
-end
-
-def name
-  @name
-end
-
+attr_accessor :name
 
 
 school.roster
