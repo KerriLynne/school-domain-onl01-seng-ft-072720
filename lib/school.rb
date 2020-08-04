@@ -2,9 +2,6 @@
 class School
 attr_accessor :name
 
-
-school.roster
-school = School.new("Bayside High School")
 end
 
 
