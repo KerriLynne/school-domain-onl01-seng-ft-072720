@@ -1,9 +1,7 @@
 # code here!
 class School
 
-  def initialize(school)
-    @school = school
-  end
+
 
 school.roster
 school = School.new("Bayside High School")
