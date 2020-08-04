@@ -1,6 +1,7 @@
 # code here!
 class School
 att_reader :roster
+
   def initialize(school)
     @school = school
   end
