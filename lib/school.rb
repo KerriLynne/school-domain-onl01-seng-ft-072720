@@ -21,8 +21,8 @@ end
 
  def sort
    roster_sorted = {}
-   @roster.map do |grade, student_name|
-     student_name.sort.flatten
+   @roster.each do |grade, student_name|
+     student_name.sort
    end
  end
 
