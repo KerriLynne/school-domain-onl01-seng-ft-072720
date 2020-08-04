@@ -20,8 +20,9 @@ end
  end
 
  def sort
+   roster_sorted {}
    @roster.map do |grade, student_name|
-     student_name.sort
+     student_name.sort.flatten
    end
  end
 
